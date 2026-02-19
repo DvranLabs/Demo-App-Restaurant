@@ -173,7 +173,7 @@ export const MENU_ITEMS: Dish[] = [
   {
     id: "dr2",
     categoryId: "drinks",
-    name: { es: "Vino Tinto de la Casa", en: "House Red Wine" },
+    name: { es: "Vino Tinto de la Casa.", en: "House Red Wine" },
     description: {
       es: "Copa de Cabernet Sauvignon, notas de frutos negros y especias.",
       en: "Glass of Cabernet Sauvignon, notes of black fruits and spices.",
