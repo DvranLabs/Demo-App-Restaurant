@@ -158,21 +158,6 @@ const App: React.FC = () => {
           onBack={handleBackToMenu}
         />
       )}
-
-      {/* WhatsApp Ordering Button */}
-      <a
-        href="https://wa.me/521234567890?text=Hola!%20Me%20gustaría%20hacer%20un%20pedido."
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 flex items-center justify-center transition-transform hover:scale-110 active:scale-95 sm:bottom-8 sm:right-8"
-        aria-label="Order via WhatsApp"
-      >
-        <img
-          src="/assets/whatsapp.png"
-          alt="WhatsApp"
-          className="w-16 h-16 sm:w-20 sm:h-20 drop-shadow-2xl"
-        />
-      </a>
     </div>
   );
 };
